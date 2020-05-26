@@ -1,7 +1,7 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
 import {Button, TextField} from '../../uikit/index';
-import {ITEMS_CENTER, TEXT_BIG} from '../../configs/style';
+import {ITEMS_CENTER} from '../../configs/style';
 const styles = StyleSheet.create({
   container: {
     ...ITEMS_CENTER,
@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
   },
 });
 
-export default class Login extends React.Component {
+export default class Password extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -26,7 +26,7 @@ export default class Login extends React.Component {
       <View style={styles.container}>
         <TextField
           useNativeDriver={true}
-          label="Your GIT Username"
+          label="Password"
           containerStyle={styles.textFieldContainer}
         />
         <Button />

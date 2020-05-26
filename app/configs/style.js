@@ -3,6 +3,7 @@ export const GRAY_LIGHT = '#cccccc';
 export const GRAY_DARKER = '#808080';
 export const FOREST_GREEN = '#228B22';
 export const GREEN = '#1e7b1e';
+export const WHITE = '#ffffff';
 
 export const ITEMS_CENTER = {
   alignItems: 'center',
