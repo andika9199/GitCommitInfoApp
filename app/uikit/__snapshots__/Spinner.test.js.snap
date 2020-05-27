@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner successfully rendered 1`] = `
+<ActivityIndicator
+  animating={true}
+  color="#333333"
+  hidesWhenStopped={true}
+  size="large"
+/>
+`;

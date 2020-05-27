@@ -1,7 +1,7 @@
 import React from 'react';
 import {Image, StyleSheet, View} from 'react-native';
 import {Button, TextField} from '../../uikit/index';
-import {ITEMS_CENTER, TEXT_BIG} from '../../configs/style';
+import {ITEMS_CENTER} from '../../configs/style';
 const styles = StyleSheet.create({
   container: {
     ...ITEMS_CENTER,

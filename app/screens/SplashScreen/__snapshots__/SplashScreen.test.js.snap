@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Splash Screen Splash Screen rendered Screen Renderer Successfully user Login 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../app/assets/gitIcons.png",
+      }
+    }
+    style={
+      Object {
+        "height": 270,
+        "resizeMode": "contain",
+        "width": 270,
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "color": "#333333",
+        "fontFamily": "Robot",
+        "fontSize": 18,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Monitor commit of the Repo
+  </Text>
+</View>
+`;
+
+exports[`Splash Screen Splash Screen rendered Screen Renderer Successfully user not Login 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../app/assets/gitIcons.png",
+      }
+    }
+    style={
+      Object {
+        "height": 270,
+        "resizeMode": "contain",
+        "width": 270,
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "color": "#333333",
+        "fontFamily": "Robot",
+        "fontSize": 18,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Monitor commit of the Repo
+  </Text>
+</View>
+`;

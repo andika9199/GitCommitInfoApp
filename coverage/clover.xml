@@ -1,33 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1590582055116" clover="3.2.0">
-  <project timestamp="1590582055116" name="All files">
-    <metrics statements="296" coveredstatements="202" conditionals="144" coveredconditionals="83" methods="62" coveredmethods="36" elements="502" coveredelements="321" complexity="0" loc="296" ncloc="296" packages="8" files="15" classes="15"/>
-    <package name="TextField">
+<coverage generated="1590585871633" clover="3.2.0">
+  <project timestamp="1590585871633" name="All files">
+    <metrics statements="360" coveredstatements="261" conditionals="158" coveredconditionals="89" methods="77" coveredmethods="48" elements="595" coveredelements="398" complexity="0" loc="360" ncloc="360" packages="15" files="24" classes="24"/>
+    <package name="assets">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="gitIcons.png" path="D:\RepoApp\app\assets\gitIcons.png">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="configs">
+      <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="style.js" path="D:\RepoApp\app\configs\style.js">
+        <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="33" count="4" type="stmt"/>
+        <line num="40" count="4" type="stmt"/>
+        <line num="46" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="redux.actions">
+      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="login.js" path="D:\RepoApp\app\redux\actions\login.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+      <file name="types.js" path="D:\RepoApp\app\redux\actions\types.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="screens.LoginScreen">
+      <metrics statements="12" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="4"/>
+      <file name="index.js" path="D:\RepoApp\app\screens\LoginScreen\index.js">
+        <metrics statements="12" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="4"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="44" count="3" type="stmt"/>
+        <line num="45" count="3" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="screens.SplashScreen">
+      <metrics statements="17" coveredstatements="13" conditionals="8" coveredconditionals="2" methods="7" coveredmethods="6"/>
+      <file name="index.js" path="D:\RepoApp\app\screens\SplashScreen\index.js">
+        <metrics statements="17" coveredstatements="13" conditionals="8" coveredconditionals="2" methods="7" coveredmethods="6"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="27" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="40" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="71" count="2" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="uikit">
+      <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="Spinner.js" path="D:\RepoApp\app\uikit\Spinner.js">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="17" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+      </file>
+      <file name="index.js" path="D:\RepoApp\app\uikit\index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="uikit.Button">
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="1"/>
+      <file name="index.js" path="D:\RepoApp\app\uikit\Button\index.js">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="1"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="41" count="3" type="stmt"/>
+        <line num="42" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="43" count="3" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="61" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="uikit.TextField">
       <metrics statements="14" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
       <file name="index.js" path="D:\RepoApp\app\uikit\TextField\index.js">
         <metrics statements="14" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="33" count="6" type="stmt"/>
-        <line num="35" count="6" type="stmt"/>
-        <line num="36" count="6" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="33" count="7" type="stmt"/>
+        <line num="35" count="7" type="stmt"/>
+        <line num="36" count="7" type="stmt"/>
         <line num="40" count="0" type="stmt"/>
         <line num="41" count="0" type="stmt"/>
         <line num="43" count="0" type="stmt"/>
         <line num="45" count="0" type="stmt"/>
-        <line num="49" count="6" type="stmt"/>
-        <line num="51" count="6" type="stmt"/>
-        <line num="55" count="6" type="stmt"/>
-        <line num="57" count="6" type="stmt"/>
+        <line num="49" count="7" type="stmt"/>
+        <line num="51" count="7" type="stmt"/>
+        <line num="55" count="7" type="stmt"/>
+        <line num="57" count="7" type="stmt"/>
       </file>
     </package>
-    <package name="TextField.affix">
+    <package name="uikit.TextField.affix">
       <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <file name="index.js" path="D:\RepoApp\app\uikit\TextField\affix\index.js">
         <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="8" count="3" type="stmt"/>
-        <line num="12" count="3" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
         <line num="30" count="6" type="stmt"/>
         <line num="32" count="6" type="stmt"/>
         <line num="37" count="6" type="stmt"/>
@@ -44,14 +156,14 @@
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
-    <package name="TextField.counter">
+    <package name="uikit.TextField.counter">
       <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
       <file name="index.js" path="D:\RepoApp\app\uikit\TextField\counter\index.js">
         <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-        <line num="8" count="3" type="stmt"/>
-        <line num="19" count="22" type="stmt"/>
-        <line num="21" count="22" type="cond" truecount="2" falsecount="0"/>
-        <line num="22" count="17" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="19" count="23" type="stmt"/>
+        <line num="21" count="23" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="18" type="stmt"/>
         <line num="25" count="5" type="stmt"/>
         <line num="31" count="5" type="stmt"/>
       </file>
@@ -59,46 +171,46 @@
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
-    <package name="TextField.field">
+    <package name="uikit.TextField.field">
       <metrics statements="184" coveredstatements="104" conditionals="96" coveredconditionals="48" methods="44" coveredmethods="21"/>
       <file name="index.js" path="D:\RepoApp\app\uikit\TextField\field\index.js">
         <metrics statements="184" coveredstatements="104" conditionals="94" coveredconditionals="47" methods="44" coveredmethods="21"/>
         <line num="22" count="0" type="stmt"/>
-        <line num="26" count="19" type="stmt"/>
-        <line num="27" count="19" type="stmt"/>
-        <line num="29" count="19" type="cond" truecount="4" falsecount="0"/>
-        <line num="33" count="19" type="stmt"/>
-        <line num="35" count="19" type="stmt"/>
-        <line num="39" count="2" type="stmt"/>
-        <line num="66" count="2" type="stmt"/>
-        <line num="121" count="2" type="stmt"/>
-        <line num="123" count="2" type="stmt"/>
-        <line num="131" count="2" type="stmt"/>
-        <line num="140" count="19" type="cond" truecount="3" falsecount="1"/>
+        <line num="26" count="20" type="stmt"/>
+        <line num="27" count="20" type="stmt"/>
+        <line num="29" count="20" type="cond" truecount="4" falsecount="0"/>
+        <line num="33" count="20" type="stmt"/>
+        <line num="35" count="20" type="stmt"/>
+        <line num="39" count="3" type="stmt"/>
+        <line num="66" count="3" type="stmt"/>
+        <line num="121" count="3" type="stmt"/>
+        <line num="123" count="3" type="stmt"/>
+        <line num="131" count="3" type="stmt"/>
+        <line num="140" count="20" type="cond" truecount="3" falsecount="1"/>
         <line num="141" count="0" type="stmt"/>
-        <line num="144" count="19" type="stmt"/>
-        <line num="148" count="19" type="stmt"/>
-        <line num="150" count="19" type="stmt"/>
-        <line num="151" count="19" type="stmt"/>
-        <line num="152" count="19" type="stmt"/>
-        <line num="153" count="19" type="stmt"/>
-        <line num="154" count="19" type="stmt"/>
-        <line num="155" count="19" type="stmt"/>
-        <line num="156" count="19" type="stmt"/>
-        <line num="158" count="19" type="stmt"/>
-        <line num="159" count="19" type="stmt"/>
-        <line num="161" count="19" type="stmt"/>
-        <line num="162" count="19" type="stmt"/>
-        <line num="163" count="19" type="stmt"/>
-        <line num="165" count="19" type="stmt"/>
-        <line num="167" count="19" type="cond" truecount="2" falsecount="0"/>
-        <line num="168" count="19" type="cond" truecount="2" falsecount="0"/>
-        <line num="170" count="19" type="stmt"/>
-        <line num="184" count="38" type="stmt"/>
-        <line num="185" count="76" type="stmt"/>
-        <line num="186" count="76" type="stmt"/>
-        <line num="188" count="76" type="stmt"/>
-        <line num="193" count="19" type="stmt"/>
+        <line num="144" count="20" type="stmt"/>
+        <line num="148" count="20" type="stmt"/>
+        <line num="150" count="20" type="stmt"/>
+        <line num="151" count="20" type="stmt"/>
+        <line num="152" count="20" type="stmt"/>
+        <line num="153" count="20" type="stmt"/>
+        <line num="154" count="20" type="stmt"/>
+        <line num="155" count="20" type="stmt"/>
+        <line num="156" count="20" type="stmt"/>
+        <line num="158" count="20" type="stmt"/>
+        <line num="159" count="20" type="stmt"/>
+        <line num="161" count="20" type="stmt"/>
+        <line num="162" count="20" type="stmt"/>
+        <line num="163" count="20" type="stmt"/>
+        <line num="165" count="20" type="stmt"/>
+        <line num="167" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="168" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="170" count="20" type="stmt"/>
+        <line num="184" count="40" type="stmt"/>
+        <line num="185" count="80" type="stmt"/>
+        <line num="186" count="80" type="stmt"/>
+        <line num="188" count="80" type="stmt"/>
+        <line num="193" count="20" type="stmt"/>
         <line num="197" count="0" type="stmt"/>
         <line num="201" count="0" type="stmt"/>
         <line num="202" count="0" type="stmt"/>
@@ -133,22 +245,22 @@
         <line num="279" count="0" type="stmt"/>
         <line num="281" count="0" type="stmt"/>
         <line num="284" count="0" type="stmt"/>
-        <line num="288" count="57" type="stmt"/>
-        <line num="289" count="57" type="stmt"/>
-        <line num="291" count="57" type="cond" truecount="2" falsecount="0"/>
-        <line num="293" count="57" type="cond" truecount="2" falsecount="0"/>
-        <line num="294" count="24" type="stmt"/>
+        <line num="288" count="60" type="stmt"/>
+        <line num="289" count="60" type="stmt"/>
+        <line num="291" count="60" type="cond" truecount="2" falsecount="0"/>
+        <line num="293" count="60" type="cond" truecount="2" falsecount="0"/>
+        <line num="294" count="27" type="stmt"/>
         <line num="297" count="33" type="cond" truecount="1" falsecount="1"/>
         <line num="301" count="0" type="stmt"/>
         <line num="305" count="0" type="stmt"/>
         <line num="307" count="0" type="stmt"/>
-        <line num="311" count="19" type="stmt"/>
-        <line num="312" count="19" type="stmt"/>
-        <line num="314" count="19" type="stmt"/>
+        <line num="311" count="20" type="stmt"/>
+        <line num="312" count="20" type="stmt"/>
+        <line num="314" count="20" type="stmt"/>
         <line num="318" count="0" type="stmt"/>
-        <line num="322" count="74" type="stmt"/>
-        <line num="323" count="74" type="stmt"/>
-        <line num="325" count="74" type="cond" truecount="3" falsecount="0"/>
+        <line num="322" count="78" type="stmt"/>
+        <line num="323" count="78" type="stmt"/>
+        <line num="325" count="78" type="cond" truecount="3" falsecount="0"/>
         <line num="329" count="0" type="stmt"/>
         <line num="331" count="0" type="cond" truecount="0" falsecount="3"/>
         <line num="335" count="0" type="stmt"/>
@@ -187,82 +299,82 @@
         <line num="413" count="0" type="stmt"/>
         <line num="415" count="0" type="cond" truecount="0" falsecount="5"/>
         <line num="416" count="0" type="stmt"/>
-        <line num="421" count="38" type="stmt"/>
-        <line num="422" count="38" type="cond" truecount="1" falsecount="0"/>
-        <line num="424" count="38" type="cond" truecount="2" falsecount="0"/>
-        <line num="428" count="19" type="stmt"/>
-        <line num="429" count="19" type="stmt"/>
-        <line num="431" count="19" type="cond" truecount="2" falsecount="2"/>
+        <line num="421" count="40" type="stmt"/>
+        <line num="422" count="40" type="cond" truecount="1" falsecount="0"/>
+        <line num="424" count="40" type="cond" truecount="2" falsecount="0"/>
+        <line num="428" count="20" type="stmt"/>
+        <line num="429" count="20" type="stmt"/>
+        <line num="431" count="20" type="cond" truecount="2" falsecount="2"/>
         <line num="432" count="0" type="stmt"/>
-        <line num="435" count="19" type="stmt"/>
-        <line num="445" count="19" type="stmt"/>
-        <line num="447" count="19" type="stmt"/>
-        <line num="448" count="1653" type="cond" truecount="2" falsecount="0"/>
-        <line num="449" count="19" type="stmt"/>
-        <line num="452" count="1634" type="cond" truecount="2" falsecount="0"/>
-        <line num="453" count="87" type="stmt"/>
-        <line num="457" count="19" type="stmt"/>
-        <line num="461" count="19" type="stmt"/>
-        <line num="463" count="19" type="cond" truecount="4" falsecount="0"/>
-        <line num="465" count="19" type="stmt"/>
-        <line num="472" count="19" type="cond" truecount="2" falsecount="0"/>
+        <line num="435" count="20" type="stmt"/>
+        <line num="445" count="20" type="stmt"/>
+        <line num="447" count="20" type="stmt"/>
+        <line num="448" count="1740" type="cond" truecount="2" falsecount="0"/>
+        <line num="449" count="20" type="stmt"/>
+        <line num="452" count="1720" type="cond" truecount="2" falsecount="0"/>
+        <line num="453" count="92" type="stmt"/>
+        <line num="457" count="20" type="stmt"/>
+        <line num="461" count="20" type="stmt"/>
+        <line num="463" count="20" type="cond" truecount="4" falsecount="0"/>
+        <line num="465" count="20" type="stmt"/>
+        <line num="472" count="20" type="cond" truecount="2" falsecount="0"/>
         <line num="473" count="1" type="stmt"/>
         <line num="474" count="1" type="cond" truecount="1" falsecount="1"/>
         <line num="476" count="1" type="stmt"/>
         <line num="477" count="1" type="stmt"/>
-        <line num="484" count="19" type="stmt"/>
-        <line num="488" count="19" type="stmt"/>
-        <line num="490" count="19" type="stmt"/>
-        <line num="492" count="19" type="stmt"/>
+        <line num="484" count="20" type="stmt"/>
+        <line num="488" count="20" type="stmt"/>
+        <line num="490" count="20" type="stmt"/>
+        <line num="492" count="20" type="stmt"/>
         <line num="505" count="13" type="stmt"/>
-        <line num="509" count="38" type="stmt"/>
-        <line num="511" count="38" type="cond" truecount="2" falsecount="0"/>
-        <line num="515" count="38" type="stmt"/>
-        <line num="521" count="38" type="stmt"/>
-        <line num="523" count="38" type="cond" truecount="2" falsecount="0"/>
-        <line num="524" count="36" type="stmt"/>
+        <line num="509" count="40" type="stmt"/>
+        <line num="511" count="40" type="cond" truecount="2" falsecount="0"/>
+        <line num="515" count="40" type="stmt"/>
+        <line num="521" count="40" type="stmt"/>
+        <line num="523" count="40" type="cond" truecount="2" falsecount="0"/>
+        <line num="524" count="38" type="stmt"/>
         <line num="527" count="2" type="stmt"/>
         <line num="535" count="2" type="stmt"/>
-        <line num="539" count="19" type="stmt"/>
-        <line num="548" count="19" type="stmt"/>
-        <line num="550" count="19" type="stmt"/>
-        <line num="551" count="19" type="stmt"/>
-        <line num="553" count="19" type="stmt"/>
-        <line num="558" count="19" type="stmt"/>
-        <line num="564" count="19" type="stmt"/>
-        <line num="570" count="19" type="stmt"/>
-        <line num="578" count="19" type="stmt"/>
-        <line num="592" count="19" type="stmt"/>
-        <line num="594" count="19" type="stmt"/>
-        <line num="595" count="19" type="stmt"/>
-        <line num="597" count="19" type="stmt"/>
-        <line num="615" count="19" type="stmt"/>
-        <line num="629" count="19" type="stmt"/>
-        <line num="631" count="19" type="stmt"/>
-        <line num="632" count="19" type="stmt"/>
-        <line num="634" count="19" type="stmt"/>
-        <line num="642" count="19" type="stmt"/>
+        <line num="539" count="20" type="stmt"/>
+        <line num="548" count="20" type="stmt"/>
+        <line num="550" count="20" type="stmt"/>
+        <line num="551" count="20" type="stmt"/>
+        <line num="553" count="20" type="stmt"/>
+        <line num="558" count="20" type="stmt"/>
+        <line num="564" count="20" type="stmt"/>
+        <line num="570" count="20" type="stmt"/>
+        <line num="578" count="20" type="stmt"/>
+        <line num="592" count="20" type="stmt"/>
+        <line num="594" count="20" type="stmt"/>
+        <line num="595" count="20" type="stmt"/>
+        <line num="597" count="20" type="stmt"/>
+        <line num="615" count="20" type="stmt"/>
+        <line num="629" count="20" type="stmt"/>
+        <line num="631" count="20" type="stmt"/>
+        <line num="632" count="20" type="stmt"/>
+        <line num="634" count="20" type="stmt"/>
+        <line num="642" count="20" type="stmt"/>
         <line num="644" count="0" type="stmt"/>
-        <line num="649" count="19" type="stmt"/>
-        <line num="657" count="19" type="stmt"/>
-        <line num="670" count="19" type="stmt"/>
-        <line num="681" count="19" type="stmt"/>
+        <line num="649" count="20" type="stmt"/>
+        <line num="657" count="20" type="stmt"/>
+        <line num="670" count="20" type="stmt"/>
+        <line num="681" count="20" type="stmt"/>
       </file>
       <file name="styles.js" path="D:\RepoApp\app\uikit\TextField\field\styles.js">
         <metrics statements="0" coveredstatements="0" conditionals="2" coveredconditionals="1" methods="0" coveredmethods="0"/>
       </file>
     </package>
-    <package name="TextField.helper">
+    <package name="uikit.TextField.helper">
       <metrics statements="21" coveredstatements="14" conditionals="16" coveredconditionals="8" methods="5" coveredmethods="3"/>
       <file name="index.js" path="D:\RepoApp\app\uikit\TextField\helper\index.js">
         <metrics statements="21" coveredstatements="14" conditionals="16" coveredconditionals="8" methods="5" coveredmethods="3"/>
-        <line num="8" count="3" type="stmt"/>
-        <line num="23" count="22" type="stmt"/>
-        <line num="25" count="22" type="stmt"/>
-        <line num="27" count="22" type="stmt"/>
-        <line num="33" count="22" type="stmt"/>
-        <line num="40" count="22" type="stmt"/>
-        <line num="42" count="22" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="23" count="23" type="stmt"/>
+        <line num="25" count="23" type="stmt"/>
+        <line num="27" count="23" type="stmt"/>
+        <line num="33" count="23" type="stmt"/>
+        <line num="40" count="23" type="stmt"/>
+        <line num="42" count="23" type="stmt"/>
         <line num="46" count="0" type="stmt"/>
         <line num="48" count="0" type="stmt"/>
         <line num="52" count="0" type="cond" truecount="0" falsecount="4"/>
@@ -270,11 +382,11 @@
         <line num="56" count="0" type="cond" truecount="0" falsecount="4"/>
         <line num="57" count="0" type="stmt"/>
         <line num="60" count="0" type="stmt"/>
-        <line num="64" count="22" type="stmt"/>
-        <line num="65" count="22" type="stmt"/>
-        <line num="67" count="22" type="cond" truecount="2" falsecount="0"/>
-        <line num="69" count="22" type="cond" truecount="2" falsecount="0"/>
-        <line num="70" count="16" type="stmt"/>
+        <line num="64" count="23" type="stmt"/>
+        <line num="65" count="23" type="stmt"/>
+        <line num="67" count="23" type="cond" truecount="2" falsecount="0"/>
+        <line num="69" count="23" type="cond" truecount="2" falsecount="0"/>
+        <line num="70" count="17" type="stmt"/>
         <line num="73" count="6" type="stmt"/>
         <line num="79" count="6" type="stmt"/>
       </file>
@@ -282,35 +394,35 @@
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
-    <package name="TextField.label">
+    <package name="uikit.TextField.label">
       <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
       <file name="index.js" path="D:\RepoApp\app\uikit\TextField\label\index.js">
         <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
-        <line num="8" count="3" type="stmt"/>
-        <line num="14" count="3" type="stmt"/>
-        <line num="62" count="27" type="stmt"/>
-        <line num="64" count="27" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="62" count="28" type="stmt"/>
+        <line num="64" count="28" type="cond" truecount="2" falsecount="0"/>
         <line num="65" count="1" type="stmt"/>
-        <line num="68" count="26" type="cond" truecount="2" falsecount="0"/>
-        <line num="77" count="26" type="stmt"/>
-        <line num="83" count="26" type="stmt"/>
-        <line num="85" count="26" type="stmt"/>
-        <line num="86" count="26" type="stmt"/>
-        <line num="87" count="26" type="stmt"/>
-        <line num="89" count="26" type="stmt"/>
-        <line num="112" count="26" type="stmt"/>
+        <line num="68" count="27" type="cond" truecount="2" falsecount="0"/>
+        <line num="77" count="27" type="stmt"/>
+        <line num="83" count="27" type="stmt"/>
+        <line num="85" count="27" type="stmt"/>
+        <line num="86" count="27" type="stmt"/>
+        <line num="87" count="27" type="stmt"/>
+        <line num="89" count="27" type="stmt"/>
+        <line num="112" count="27" type="stmt"/>
       </file>
       <file name="styles.js" path="D:\RepoApp\app\uikit\TextField\label\styles.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
-    <package name="TextField.line">
+    <package name="uikit.TextField.line">
       <metrics statements="24" coveredstatements="22" conditionals="10" coveredconditionals="8" methods="4" coveredmethods="4"/>
       <file name="index.js" path="D:\RepoApp\app\uikit\TextField\line\index.js">
         <metrics statements="24" coveredstatements="22" conditionals="10" coveredconditionals="8" methods="4" coveredmethods="4"/>
-        <line num="7" count="3" type="stmt"/>
-        <line num="10" count="3" type="stmt"/>
-        <line num="18" count="3" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
         <line num="37" count="17" type="stmt"/>
         <line num="39" count="17" type="stmt"/>
         <line num="46" count="17" type="cond" truecount="1" falsecount="1"/>
@@ -337,34 +449,34 @@
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
-    <package name="TextField.outline">
+    <package name="uikit.TextField.outline">
       <metrics statements="21" coveredstatements="20" conditionals="10" coveredconditionals="7" methods="2" coveredmethods="2"/>
       <file name="index.js" path="D:\RepoApp\app\uikit\TextField\outline\index.js">
         <metrics statements="19" coveredstatements="18" conditionals="8" coveredconditionals="6" methods="2" coveredmethods="2"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="14" count="2" type="stmt"/>
-        <line num="50" count="10" type="stmt"/>
-        <line num="52" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="50" count="11" type="stmt"/>
+        <line num="52" count="11" type="cond" truecount="2" falsecount="0"/>
         <line num="53" count="2" type="stmt"/>
-        <line num="59" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="59" count="9" type="cond" truecount="2" falsecount="0"/>
         <line num="60" count="1" type="stmt"/>
-        <line num="66" count="7" type="stmt"/>
-        <line num="82" count="10" type="stmt"/>
-        <line num="84" count="10" type="cond" truecount="1" falsecount="1"/>
+        <line num="66" count="8" type="stmt"/>
+        <line num="82" count="11" type="stmt"/>
+        <line num="84" count="11" type="cond" truecount="1" falsecount="1"/>
         <line num="85" count="0" type="stmt"/>
-        <line num="88" count="10" type="stmt"/>
-        <line num="89" count="10" type="stmt"/>
-        <line num="91" count="10" type="stmt"/>
-        <line num="102" count="10" type="stmt"/>
-        <line num="106" count="10" type="stmt"/>
-        <line num="110" count="10" type="stmt"/>
-        <line num="115" count="10" type="stmt"/>
-        <line num="117" count="10" type="stmt"/>
+        <line num="88" count="11" type="stmt"/>
+        <line num="89" count="11" type="stmt"/>
+        <line num="91" count="11" type="stmt"/>
+        <line num="102" count="11" type="stmt"/>
+        <line num="106" count="11" type="stmt"/>
+        <line num="110" count="11" type="stmt"/>
+        <line num="115" count="11" type="stmt"/>
+        <line num="117" count="11" type="stmt"/>
       </file>
       <file name="styles.js" path="D:\RepoApp\app\uikit\TextField\outline\styles.js">
         <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="1" methods="0" coveredmethods="0"/>
-        <line num="3" count="2" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
       </file>
     </package>
   </project>

@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button successfully rendered 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#333333",
+      "borderRadius": 4,
+      "height": 40,
+      "justifyContent": "center",
+      "opacity": 1,
+      "width": 150,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#ffffff",
+        "fontFamily": "Robot",
+        "fontSize": 13,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Button
+  </Text>
+</View>
+`;
+
+exports[`Button successfully rendered but disabled 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#cccccc",
+      "borderRadius": 4,
+      "height": 40,
+      "justifyContent": "center",
+      "opacity": 1,
+      "width": 150,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#ffffff",
+        "fontFamily": "Robot",
+        "fontSize": 13,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Button
+  </Text>
+</View>
+`;
