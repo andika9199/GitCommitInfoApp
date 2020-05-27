@@ -45,4 +45,11 @@ react-native run-android or react-native run-ios
 ```
 
 ## Notes
+
 Next il implement Jest test
+
+## Link for The app
+
+https://drive.google.com/file/d/1fC79sjOgjSfP2icOSSMP8fKq0YLmswsa/view?usp=sharing
+![](./readme_app1.gif)
+![](./readme_app2.gif)
