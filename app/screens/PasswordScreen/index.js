@@ -1,6 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import {StyleSheet, View} from 'react-native';
+import {Alert, StyleSheet, View} from 'react-native';
 import {reqLogin} from '../../redux/actions/login';
 import {Button, TextField} from '../../uikit/index';
 import {ITEMS_CENTER} from '../../configs/style';
@@ -38,6 +38,12 @@ export class Password extends React.Component {
         navigation.reset({
           index: 0,
           routes: [{name: 'HomeScreen'}],
+        });
+      } else if (login && login.error) {
+        Alert.alert('Info', login.data);
+        navigation.reset({
+          index: 0,
+          routes: [{name: 'LoginScreen'}],
         });
       }
     }

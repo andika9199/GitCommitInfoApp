@@ -16,6 +16,10 @@ export const request = (state) => {
 };
 
 export const success = (state, action) => {
+  if (!action.data.hasOwnProperty('login')) {
+    const errData = {errData: action.data.message};
+    return failure(state, errData);
+  }
   return {
     ...state,
     data: action.data,
