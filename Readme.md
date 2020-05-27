@@ -43,3 +43,6 @@ cd ios && pod install
 ```ssh
 react-native run-android or react-native run-ios
 ```
+
+## Notes
+Next il implement Jest test
