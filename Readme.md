@@ -8,8 +8,9 @@ The app can be used for see the commit in Repo (only master branch)
     - React Native V0.62.2
     - State management with Redux + saga
     - React navigation 5
+    - Unit test with Jest
 
-## How to run
+## How to run or install
 
 - Instal all prerequisites
   https://facebook.github.io/react-native/docs/getting-started.html
@@ -44,9 +45,27 @@ cd ios && pod install
 react-native run-android or react-native run-ios
 ```
 
-## Notes
+## Test Case
 
-Next il implement Jest test
+Login
+
+- Open App
+- Fill Username, click next
+- Fill Password, click Login
+- if Success will go to home screen
+- if fail will show alert and go back to Login Screen
+
+auto Login
+
+- After successfully login close the app
+- open it again it will direct user to Home Screen
+
+Search Repo
+
+- After successfully login
+- input repo with the git user, ex: facebook/react-native
+- if success will navigate to Commit screen
+- if fail will show alert
 
 ## Link for The app
 
