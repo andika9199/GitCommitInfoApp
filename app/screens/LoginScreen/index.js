@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, View} from 'react-native';
+import {Image, StyleSheet, View} from 'react-native';
 import {Button, TextField} from '../../uikit/index';
 import {ITEMS_CENTER, TEXT_BIG} from '../../configs/style';
 const styles = StyleSheet.create({
@@ -11,6 +11,11 @@ const styles = StyleSheet.create({
     width: '100%',
     paddingHorizontal: 64,
   },
+  image: {
+    width: 270,
+    height: 270,
+    resizeMode: 'contain',
+  },
 });
 
 export default class Login extends React.Component {
@@ -20,12 +25,15 @@ export default class Login extends React.Component {
       username: '',
     };
   }
+
+  // SetState for Username
   setUsername = (username) => {
     this.setState({
       username,
     });
   };
 
+  // Navigate to Password Screen and pass USername data
   goToPasswordScreen = () => {
     const {navigation} = this.props;
     const {username} = this.state;
@@ -36,6 +44,10 @@ export default class Login extends React.Component {
     const {username} = this.state;
     return (
       <View style={styles.container}>
+        <Image
+          source={require('../../assets/gitIcons.png')}
+          style={styles.image}
+        />
         <TextField
           useNativeDriver={true}
           label="Your GIT Username"

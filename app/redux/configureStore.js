@@ -2,6 +2,7 @@ import {createStore, applyMiddleware, combineReducers} from 'redux';
 import createSagaMiddleware from 'redux-saga';
 import rootSaga from '../sagas/rootSaga';
 
+// Implementing Redux Saga
 export default function configureStore() {
   const rootReducer = combineReducers({
     login: require('./reducers/login').reducer,

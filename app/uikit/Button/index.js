@@ -28,6 +28,15 @@ const styles = StyleSheet.create({
   },
 });
 
+/**
+ *
+ * @param {boolean} disabled
+ * @param {function} onPress
+ * @param {Object|array} style
+ * @param {string} title
+ * @param {Object|array} titleStyle
+ */
+
 export default function Button(props) {
   const {disabled, onPress, style, title, titleStyle} = props;
   const bgColor = disabled ? styles.bgGray : styles.bgBlack;

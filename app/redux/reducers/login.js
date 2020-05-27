@@ -16,6 +16,7 @@ export const request = (state) => {
 };
 
 export const success = (state, action) => {
+  // The api always return success so im creating the condition here for error feedback
   if (!action.data.hasOwnProperty('login')) {
     const errData = {errData: action.data.message};
     return failure(state, errData);

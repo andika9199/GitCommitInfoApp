@@ -1,5 +1,6 @@
 import React from 'react';
 import {Image, StyleSheet, Text, View} from 'react-native';
+import PropTypes from 'prop-types';
 import {
   WHITE,
   GRAY_DARKER,
@@ -35,7 +36,20 @@ const styles = StyleSheet.create({
   bgWhite: {
     backgroundColor: WHITE,
   },
+  wordingContainer: {flex: 1, paddingLeft: 4},
 });
+
+/**
+ *
+ * @param {string} message
+ * @param {string} date
+ * @param {string} authorAvatar
+ * @param {string} authorName
+ * @param {string} commiterAvatar
+ * @param {string} commiterName
+ * @param {number} index
+ */
+
 export default function CommitCard({props}) {
   const {
     message,
@@ -46,7 +60,10 @@ export default function CommitCard({props}) {
     commiterName,
     index,
   } = props;
+
+  // Sometimes Commit not have author so im just remove the data
   const isAuthorNotExist = !authorName || !authorAvatar ? true : false;
+  const isAuthorSameWithCommitter = authorAvatar === commiterAvatar;
   const wording =
     (!isAuthorNotExist ? `${authorName} authored and ` : '') +
     `${commiterName} commited ${date}`;
@@ -58,15 +75,25 @@ export default function CommitCard({props}) {
       </Text>
       <View style={styles.commitInfoContainer}>
         <View style={styles.imageContainer}>
-          {!isAuthorNotExist && (
+          {!isAuthorNotExist && !isAuthorSameWithCommitter && (
             <Image source={{uri: authorAvatar}} style={styles.image} />
           )}
           <Image source={{uri: commiterAvatar}} style={styles.image} />
         </View>
-        <View style={{flex: 1, paddingLeft: 4}}>
+        <View style={styles.wordingContainer}>
           <Text style={styles.wording}>{wording}</Text>
         </View>
       </View>
     </View>
   );
 }
+
+CommitCard.propTypes = {
+  message: PropTypes.string,
+  date: PropTypes.string,
+  authorAvatar: PropTypes.string,
+  authorName: PropTypes.string,
+  commiterAvatar: PropTypes.string,
+  commiterName: PropTypes.string,
+  index: PropTypes.number,
+};

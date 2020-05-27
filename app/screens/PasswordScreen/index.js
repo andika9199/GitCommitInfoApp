@@ -1,10 +1,10 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import {Alert, StyleSheet, View} from 'react-native';
+import {Alert, Image, StyleSheet, View} from 'react-native';
 import {reqLogin} from '../../redux/actions/login';
 import {Button, TextField} from '../../uikit/index';
 import {ITEMS_CENTER} from '../../configs/style';
-import {loginGit} from '../../configs/apiconfig';
+
 const styles = StyleSheet.create({
   container: {
     ...ITEMS_CENTER,
@@ -14,6 +14,11 @@ const styles = StyleSheet.create({
     width: '100%',
     paddingHorizontal: 64,
   },
+  image: {
+    width: 270,
+    height: 270,
+    resizeMode: 'contain',
+  },
 });
 
 export class Password extends React.Component {
@@ -21,10 +26,10 @@ export class Password extends React.Component {
     super(props);
     this.state = {
       password: '',
-      isLogedin: false,
     };
   }
 
+  // Setstate for Password
   setPassword = (password) => {
     this.setState({
       password,
@@ -35,11 +40,13 @@ export class Password extends React.Component {
     const {login, route, navigation} = this.props;
     if (prevProps.login.data !== login.data) {
       if (login && login.data && login.data.login === route.params.username) {
+        // Login succes navigate to home
         navigation.reset({
           index: 0,
           routes: [{name: 'HomeScreen'}],
         });
       } else if (login && login.error) {
+        // Login failed show alert, ex: User not found or bad credential, navigate to LoginScreen
         Alert.alert('Info', login.data);
         navigation.reset({
           index: 0,
@@ -49,8 +56,9 @@ export class Password extends React.Component {
     }
   }
 
+  // Call the Login Api
   login = async () => {
-    const {route, navigation} = this.props;
+    const {route} = this.props;
     const {password} = this.state;
     await this.props.reqLogin(route.params.username, password);
   };
@@ -60,6 +68,10 @@ export class Password extends React.Component {
     const {password} = this.state;
     return (
       <View style={styles.container}>
+        <Image
+          source={require('../../assets/gitIcons.png')}
+          style={styles.image}
+        />
         <TextField
           useNativeDriver={true}
           label={'Password'}

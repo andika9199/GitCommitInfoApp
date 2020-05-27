@@ -28,9 +28,11 @@ export class Commit extends React.Component {
     };
   }
 
+  // Render List of the Commit in Repo
   commitDataList = () => {
     const {commitList} = this.props;
     return commitList.data.map((data, index) => {
+      // Proccess data that will be used
       const commitData = {
         message: data.commit.message,
         date: moment(data.commit.committer.date, 'YYYYMMDD').fromNow(),
@@ -45,6 +47,7 @@ export class Commit extends React.Component {
     });
   };
 
+  // Pagination go to newer commit
   newerCommit = async () => {
     const {getRepoCommitList, route} = this.props;
     const {page} = this.state;
@@ -54,6 +57,7 @@ export class Commit extends React.Component {
     }));
   };
 
+  // Pagination go to older commit
   olderCommit = async () => {
     const {getRepoCommitList, route} = this.props;
     const {page} = this.state;
@@ -63,9 +67,11 @@ export class Commit extends React.Component {
     }));
   };
 
+  // Logout clear local storage and bavugate to LoginScreen
   logOut = async () => {
     const {navigation} = this.props;
     await AsyncStorage.removeItem('loginData');
+    global.basicAuth = null;
     navigation.reset({
       index: 0,
       routes: [{name: 'LoginScreen'}],
@@ -98,7 +104,7 @@ export class Commit extends React.Component {
             />
             <View style={styles.separator} />
             <Button
-              disabled={commitList.isFetching && commitList.data.length < 30}
+              disabled={commitList.isFetching || commitList.data.length < 30}
               title="Older"
               onPress={this.olderCommit}
             />
