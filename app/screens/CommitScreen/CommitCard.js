@@ -3,7 +3,6 @@ import {Image, StyleSheet, Text, View} from 'react-native';
 import PropTypes from 'prop-types';
 import {
   WHITE,
-  GRAY_DARKER,
   GRAY_LIGHT,
   TEXT_LARGE_BOLD,
   DEFAULT_TEXT,

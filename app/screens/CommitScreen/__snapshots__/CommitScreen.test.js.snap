@@ -1,0 +1,319 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Commit Screen Commit Screen rendered Screen Renderer Successfully 1`] = `
+<RCTScrollView>
+  <View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#333333",
+          "height": 40,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#ffffff",
+            "fontFamily": "Robot",
+            "fontSize": 13,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        logout
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "borderColor": "#cccccc",
+            "borderWidth": 1,
+            "paddingHorizontal": 16,
+            "paddingVertical": 4,
+          },
+          Object {
+            "backgroundColor": "#cccccc",
+          },
+        ]
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          Object {
+            "color": "#333333",
+            "fontFamily": "Robot",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Always return an EventDispatcher in bridgeless mode...
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+            "marginTop": 2,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://avatars1.githubusercontent.com/u/2308395?v=4",
+              }
+            }
+            style={
+              Object {
+                "height": 20,
+                "resizeMode": "contain",
+                "width": 20,
+              }
+            }
+          />
+          <Image
+            source={
+              Object {
+                "uri": "https://avatars3.githubusercontent.com/u/6422482?v=4",
+              }
+            }
+            style={
+              Object {
+                "height": 20,
+                "resizeMode": "contain",
+                "width": 20,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "paddingLeft": 4,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#333333",
+                "fontFamily": "Robot",
+                "fontSize": 13,
+              }
+            }
+          >
+            ejanzer authored and facebook-bot commited a day ago
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "borderColor": "#cccccc",
+            "borderWidth": 1,
+            "paddingHorizontal": 16,
+            "paddingVertical": 4,
+          },
+          Object {
+            "backgroundColor": "#ffffff",
+          },
+        ]
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          Object {
+            "color": "#333333",
+            "fontFamily": "Robot",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Always return an EventDispatcher in bridgeless mode...
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+            "marginTop": 2,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://avatars1.githubusercontent.com/u/2308395?v=4",
+              }
+            }
+            style={
+              Object {
+                "height": 20,
+                "resizeMode": "contain",
+                "width": 20,
+              }
+            }
+          />
+          <Image
+            source={
+              Object {
+                "uri": "https://avatars3.githubusercontent.com/u/6422482?v=4",
+              }
+            }
+            style={
+              Object {
+                "height": 20,
+                "resizeMode": "contain",
+                "width": 20,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "paddingLeft": 4,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#333333",
+                "fontFamily": "Robot",
+                "fontSize": 13,
+              }
+            }
+          >
+            charles authored and facebook-bot commited a day ago
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 16,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#cccccc",
+            "borderRadius": 4,
+            "height": 40,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": 150,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#ffffff",
+              "fontFamily": "Robot",
+              "fontSize": 13,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Newer
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "width": 20,
+          }
+        }
+      />
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#cccccc",
+            "borderRadius": 4,
+            "height": 40,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": 150,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#ffffff",
+              "fontFamily": "Robot",
+              "fontSize": 13,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Older
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

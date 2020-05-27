@@ -121,7 +121,7 @@ function mapStateToProps(state) {
   };
 }
 
-function mapDispatchToProps(dispatch) {
+export function mapDispatchToProps(dispatch) {
   return {
     getRepoCommitList: (keyword, page) => dispatch(getCommit({keyword, page})),
   };

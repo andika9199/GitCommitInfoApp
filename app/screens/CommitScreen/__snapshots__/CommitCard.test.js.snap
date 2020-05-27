@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommitCard successfully rendered with data 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderColor": "#cccccc",
+        "borderWidth": 1,
+        "paddingHorizontal": 16,
+        "paddingVertical": 4,
+      },
+      Object {
+        "backgroundColor": "#ffffff",
+      },
+    ]
+  }
+>
+  <Text
+    numberOfLines={1}
+    style={
+      Object {
+        "color": "#333333",
+        "fontFamily": "Robot",
+        "fontSize": 16,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Always return an EventDispatcher in bridgeless mode...
+  </Text>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+        "marginTop": 2,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://avatars1.githubusercontent.com/u/2308395?v=4",
+          }
+        }
+        style={
+          Object {
+            "height": 20,
+            "resizeMode": "contain",
+            "width": 20,
+          }
+        }
+      />
+      <Image
+        source={
+          Object {
+            "uri": "https://avatars3.githubusercontent.com/u/6422482?v=4",
+          }
+        }
+        style={
+          Object {
+            "height": 20,
+            "resizeMode": "contain",
+            "width": 20,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "paddingLeft": 4,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#333333",
+            "fontFamily": "Robot",
+            "fontSize": 13,
+          }
+        }
+      >
+        ejanzer authored and facebook-github-bot commited 2020-05-27T19:16:21Z
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`CommitCard successfully rendered without Author data 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderColor": "#cccccc",
+        "borderWidth": 1,
+        "paddingHorizontal": 16,
+        "paddingVertical": 4,
+      },
+      Object {
+        "backgroundColor": "#cccccc",
+      },
+    ]
+  }
+>
+  <Text
+    numberOfLines={1}
+    style={
+      Object {
+        "color": "#333333",
+        "fontFamily": "Robot",
+        "fontSize": 16,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Always return an EventDispatcher in bridgeless mode...
+  </Text>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+        "marginTop": 2,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://avatars3.githubusercontent.com/u/6422482?v=4",
+          }
+        }
+        style={
+          Object {
+            "height": 20,
+            "resizeMode": "contain",
+            "width": 20,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "paddingLeft": 4,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#333333",
+            "fontFamily": "Robot",
+            "fontSize": 13,
+          }
+        }
+      >
+        facebook-github-bot commited 2020-05-27T19:16:21Z
+      </Text>
+    </View>
+  </View>
+</View>
+`;

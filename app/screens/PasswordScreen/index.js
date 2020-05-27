@@ -96,7 +96,7 @@ function mapStateToProps(state) {
   };
 }
 
-function mapDispatchToProps(dispatch) {
+export function mapDispatchToProps(dispatch) {
   return {
     reqLogin: (username, password, isLogedIn) =>
       dispatch(reqLogin({username, password, isLogedIn})),
