@@ -20,16 +20,34 @@ export default class Login extends React.Component {
       username: '',
     };
   }
+  setUsername = (username) => {
+    this.setState({
+      username,
+    });
+  };
+
+  goToPasswordScreen = () => {
+    const {navigation} = this.props;
+    const {username} = this.state;
+    navigation.navigate('PasswordScreen', {username});
+  };
 
   render() {
+    const {username} = this.state;
     return (
       <View style={styles.container}>
         <TextField
           useNativeDriver={true}
           label="Your GIT Username"
           containerStyle={styles.textFieldContainer}
+          onChangeText={(input) => this.setUsername(input)}
+          autoCapitalize="none"
         />
-        <Button />
+        <Button
+          title="Next"
+          disabled={username === ''}
+          onPress={this.goToPasswordScreen}
+        />
       </View>
     );
   }
